@@ -7,9 +7,7 @@ function Navbar() {
   return (
     <nav className="flex justify-center">
       <div className="flex flex-row-reverse w-[70vw] justify-between p-1 pr-5">
-        <Link to="/">
-          <Logo />
-        </Link>
+        <Logo />
         <SearchBar />
         <UserMenu />
       </div>
