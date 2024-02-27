@@ -10,7 +10,7 @@ function Banner() {
         <button className="mt-4 py-2 px-6 rounded-[4px] bg-red-600 text-white">
           <span className="pointer" onClick={() => {
             document.getElementById('products').scrollIntoView()
-          }} href="/products">خرید</span>
+          }}>خرید</span>
         </button>
       </div>
     </div>
