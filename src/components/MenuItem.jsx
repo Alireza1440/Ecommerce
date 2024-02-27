@@ -1,4 +1,4 @@
-import { useModalDispatch } from "../contexts"
+import { useModalDispatch } from "../contexts/modalContext"
 
 function MenuItem({ label, type, onMenuClose }) {
   const dispatch = useModalDispatch()

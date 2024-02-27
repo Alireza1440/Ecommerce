@@ -1,4 +1,4 @@
-import { useModalDispatch } from "../contexts"
+import { useModalDispatch } from "../contexts/modalContext"
 import { GrFormClose } from 'react-icons/gr'
 
 function Modal({ body, footer, isOpen, type, size }) {

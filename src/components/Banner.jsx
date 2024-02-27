@@ -7,7 +7,9 @@ function Banner() {
         <h1>لورم ایپسوم متن ساختگی با</h1>
         <img src="images/headphones_a_3.webp" alt="Headphone"
           className="shadow-black shadow-2xl absolute h-[70vh] right-[300px] top-0" />
-        <button className="mt-4 py-2 px-6 rounded-[4px] bg-red-600 text-white">خرید</button>
+        <button className="mt-4 py-2 px-6 rounded-[4px] bg-red-600 text-white">
+          <a href="#products">خرید</a>
+        </button>
       </div>
     </div>
   )

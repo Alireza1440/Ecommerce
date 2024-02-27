@@ -42,7 +42,7 @@ function reducer(state, action) {
 
       break;
     default:
-      throw new Error('Unexpected action!')
+      throw new Error(`Unexpected modal action! ${action}`)
       break;
   }
 }
