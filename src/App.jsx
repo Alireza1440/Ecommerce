@@ -19,7 +19,7 @@ function App() {
 
   useEffect(() => {
     if (!localStorage.getItem('allUsers')) {
-      fetch('/users.json').then(u => u.json()).then((u) => {
+      fetch('./users.json').then(u => u.json()).then((u) => {
         localStorage.setItem('allUsers', JSON.stringify(u))
       })
     }
