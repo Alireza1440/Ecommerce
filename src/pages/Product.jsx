@@ -11,7 +11,7 @@ function Product() {
     setIsLoading(true)
     setTimeout(() => {
       setIsLoading(false)
-      fetch('/data.json')
+      fetch('./data.json')
         .then(d => d.json())
         .then(d => d.find(p => p.id === id))
         .then(p => {
@@ -29,7 +29,7 @@ function Product() {
   )
     : (
       <div className="flex gap-5 h-[70vh] mt-6 pt-20 bg-purple-300">
-        <img src={`${product.src}`} alt="تصویر کالا" className="h-[300px]" />
+        <img src={`.${product.src}`} alt="تصویر کالا" className="h-[300px]" />
         <div>
           <h1 className="text-[30px]">{product.name}</h1>
           <h3 className="mb-4">{product.desc}</h3>
