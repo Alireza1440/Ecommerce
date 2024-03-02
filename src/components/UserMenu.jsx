@@ -25,7 +25,6 @@ function UserMenu() {
             <div className='hover:bg-gray-300 py-1 pr-1 cursor-pointer transition'>نشان شده ها</div>
             <div className='hover:bg-gray-300 py-1 pr-1 cursor-pointer transition' onClick={() => {
               dispatchUser({ type: 'remove' })
-              window.location.reload()
             }} >خروج</div>
           </div>)}
         </div>
